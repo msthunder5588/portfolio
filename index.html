@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salman Hadi | Developer Portfolio</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background: linear-gradient(135deg, #0f172a, #1e293b);
+        color: white;
+      }
+
+      header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+      }
+
+      header h1 {
+        color: #38bdf8;
+      }
+
+      nav a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+      }
+
+      nav a:hover {
+        color: #38bdf8;
+      }
+
+      section {
+        padding: 120px 50px;
+        min-height: 100vh;
+      }
+
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .hero-text {
+        max-width: 600px;
+      }
+
+      .hero h2 {
+        font-size: 48px;
+      }
+
+      .highlight {
+        color: #38bdf8;
+      }
+
+      .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 12px 25px;
+        background: #38bdf8;
+        color: black;
+        text-decoration: none;
+        border-radius: 30px;
+        font-weight: 600;
+        transition: 0.3s;
+      }
+
+      .btn:hover {
+        background: #0ea5e9;
+      }
+
+      .skills span {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        background: #1e293b;
+        border-radius: 25px;
+      }
+
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+
+      .card {
+        background: #1e293b;
+        padding: 20px;
+        border-radius: 15px;
+        transition: 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        background: #0f172a;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Salman Hadi</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h2>Hello, I'm <span class="highlight">Salman Hadi</span></h2>
+        <p>
+          BS Computer Science Student | Full Stack Developer | AI Enthusiast
+        </p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am an 8th semester Computer Science student passionate about
+        Artificial Intelligence, MERN Stack, and modern web development. I love
+        building scalable and impactful software solutions.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>Python</span>
+        <span>Machine Learning</span>
+        <span>MongoDB</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>AI Cancer Detection</h3>
+          <p>
+            Machine learning project using Naive Bayes for cancer prediction.
+          </p>
+        </div>
+        <div class="card">
+          <h3>MERN Stack App</h3>
+          <p>
+            Full-stack web application with authentication and database
+            integration.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>Responsive personal portfolio hosted on GitHub Pages.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: mshthunder@gmail.com</p>
+      <p>GitHub: github.com/mshthunder5588</p>
+      <a href="https://github.com/mshthunder5588" class="btn" target="_blank"
+        >Visit GitHub</a
+      >
+    </section>
+
+    <footer>
+      <p>© 2026 Salman Hadi. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
